@@ -1,27 +1,22 @@
-﻿void PrintNames(List<string> friends)
+void PrintNames(List<string> friends)
 {
     foreach (string friend in friends)
     {
         Console.WriteLine(friend);
     }
 }
-List<string> vrienden = new List<string>();
+List<string> friends = new List<string>();
 
 
 
-vrienden.Add("Stijn");
-vrienden.Add("Antony");
-vrienden.Add("Manon");
-vrienden.Add("Erik");
-vrienden.Add("Noah");
-vrienden.Add("Steff");
-vrienden.Add("Robin");
-vrienden.Add("Mariska");
-vrienden.Add("Lotte");
-vrienden.Add("Gijs");
-vrienden.Add("Max");
-vrienden.Add("Samantha");
-vrienden.Add("Bo");
+friends.Add("Stijn");
+friends.Add("Tijl");
+friends.Add("Yermo");
+friends.Add("Max");
+friends.Add("Tijs");
+friends.Add("Ralf");
+friends.Add("Andrei");
+friends.Add("Michele");
 
 
 
